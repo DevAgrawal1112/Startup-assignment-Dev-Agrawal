@@ -1,36 +1,20 @@
-import React from "react";
-import styled from 'styled-components';
+import React, { useState } from "react";
 import { Card } from "./Card";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Detail } from "./Detail";
 
 export const Main = () => {
+    const [selectedArticle,setSelectedArticle] = useState(null);
     return (
         <>
-        <Items>
-            <Card/>
-            <Map>
-                dev
-            </Map>
-            <Cards>
-                agrawal
-            </Cards>
-        </Items>
+        <div className="flex border-b-2 border-black">
+            <div className="flex border-r-2 border-black w-7/12">
+                dfdafadfadvaevevdfvfvfavafvvavafvafvafvaefvfa
+            </div>
+            <div className="flex w-5/12">
+                <Card />
+            </div>
+        </div>
         </>
     )
 }
-
-const Items = styled.div`
-    display: flex;
-    border-bottom : 2px solid black;
-    width: 100%;
-`
-
-const Map = styled.div`
-    width: 60%;
-    height: 620px;
-    border-right : 2px solid black;
-`
-
-const Cards = styled.div`
-    display: flex;
-    justify-content: space-between;
-`
