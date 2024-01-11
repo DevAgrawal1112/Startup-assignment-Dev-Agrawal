@@ -1,20 +1,13 @@
 import React from "react";
-import styled from 'styled-components'
 import logo from "../images/logosmall.png";
 
 export const Navbar = () => {
     return (
         <>
-        <Logo>
+        <div className="flex border-b-2 border-black w-full h-20">
             <img src = {logo} alt="logo"/>
-        </Logo>
+        </div>
         </>
     )
 }
 
-const Logo = styled.div`
-    display: flex;
-    border-bottom : 2px solid black;
-    width: 100%;
-    height: 80px;
-`

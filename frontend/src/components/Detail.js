@@ -1,10 +1,14 @@
 import React from "react";
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const Details = () => {
+export const Detail = () => {
     return (
         <>
         
         </>
     )
 }
+
+const Item = styled.div`
+
+`
