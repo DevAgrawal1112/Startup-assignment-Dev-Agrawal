@@ -20,7 +20,7 @@ npm install
 npm start
 
 # Snapshots of the project
-![Screenshot 2024-01-12 233031](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/cdac45d1-9acb-4c48-a934-67812bf1a3f8)
-![Screenshot 2024-01-12 233031](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/0c005589-36d5-41be-a6a8-15944b8f049e)
-![Screenshot 2024-01-12 232617](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/2269759f-ad58-455c-bea1-cf1c6ac7e58e)
-![Screenshot 2024-01-12 232950](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/66a8930c-c674-460f-9089-930bc7da48ff)
+![image](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/cdac45d1-9acb-4c48-a934-67812bf1a3f8)
+![image](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/0c005589-36d5-41be-a6a8-15944b8f049e)
+![image](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/2269759f-ad58-455c-bea1-cf1c6ac7e58e)
+![image](https://github.com/DevAgrawal1112/Startup-assignment-Dev-Agrawal/assets/77338386/66a8930c-c674-460f-9089-930bc7da48ff)

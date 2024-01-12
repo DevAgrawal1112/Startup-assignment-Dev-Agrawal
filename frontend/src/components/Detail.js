@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { Backend_Url } from "./BackendUrl";
 export const Detail = () => {
   const location = useLocation();
   const pathname = location.pathname;
   const [article, setArticle] = useState(null);
   const path = pathname.split("/");
   const finalpath = Number(path[1]) - 1;
+  const Backend_Url = process.env.REACT_APP_BACKEND_URL;
 
   useEffect(() => {
     const fetchData = async () => {
