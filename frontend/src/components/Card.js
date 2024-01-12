@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+import { Detail } from "./Detail";
 
-export const Card = ({setselectedArticleId}) => {
+export const Card = () => {
     const [articles, setArticles] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedArticleId, setSelectedArticleId] = useState(null);
+    const navigate = useNavigate();
     const articlesPerPage = 4;
     const fixedSize = 10;
+//     const {userId} = useParams(); 
+//   console.log(userId);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch("https://65841ac24d1ee97c6bcefd4e.mockapi.io/hotellistings");
                 const data = await response.json();
-                console.log(data[0].name)
+                // console.log(data[0].name)
                 setArticles(data);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -31,6 +36,8 @@ export const Card = ({setselectedArticleId}) => {
     };
 
     const handleArticleClick = (articleId) => {
+        // console.log(articleId);
+        navigate(`/${articleId}`);
         setSelectedArticleId(articleId);
     };
 
