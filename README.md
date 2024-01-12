@@ -19,6 +19,8 @@ npm install
 # Start the development server
 npm start
 
+```
+
 # Snapshots of the project
 <img src="frontend/src/images/image1.png">
 <img src="frontend/src/images/image2.png">
