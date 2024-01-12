@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { BackendUrl } from "./BackendUrl";
+import { Backend_Url } from "./BackendUrl";
 export const Detail = () => {
   const location = useLocation();
   const pathname = location.pathname;
@@ -11,7 +11,7 @@ export const Detail = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(BackendUrl);
+        const response = await fetch(Backend_Url);
         const data = await response.json();
         setArticle(data[finalpath]);
       } catch (error) {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 import { API_KEY } from "./Apikey";
-import { BackendUrl } from "./BackendUrl";
+import { Backend_Url } from "./BackendUrl";
 
 export const Card = () => {
     const [articles, setArticles] = useState([]);
@@ -15,7 +15,7 @@ export const Card = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(BackendUrl);
+                const response = await fetch(Backend_Url);
                 const data = await response.json();
                 setArticles(data);
             } catch (error) {
