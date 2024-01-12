@@ -20,6 +20,6 @@ npm install
 npm start
 
 # Snapshots of the project
-<img src="src/images/image1.png>
-<img src="src/images/image2.png>
-<img src="src/images/image3.png>
+<img src="frontend/src/images/image1.png>
+<img src="frontend/src/images/image2.png>
+<img src="frontend/src/images/image3.png>
